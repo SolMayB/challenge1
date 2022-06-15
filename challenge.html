@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+       <meta charset="UTF-8">
+       <link rel="stylesheet" href="reset.css">
+       <title>Encriptador de texto</title>
+       <link rel="stylesheet" href="style-challenge.css">
+    </head>  
+    <body>
+      <header>
+        <img class="A-alura" src="Vector.png" >
+      </header> 
+      
+      <section class="area-munieco">
+        <div class="encriptador_mensaje">
+          <img src="Muñeco (1).png" id="munieco" class="logo-munieco">
+          <label id="in_texto1" class="texto_no_encontrado">Ningun mensaje fue encontrado</label>
+          <label id="in_texto2" class="ingrese_texto">Ingresa el texto que quieres encriptar o desencriptar</label>
+          <button id="copiar" onclick="copiar()" class="boton_copiar">Copiar Texto</button>
+          <textarea class="texto_encriptado" id="encriptado" placeholder="Ingrese su frase sin codificar">
+          </textarea>
+            
+            
+        </div>
+      </section>
+
+      <section class="section-tex-entrada">
+        <div class="encriptador_mensaje">
+          <input type="text" id="texto-entrada" class="texto-entrada" placeholder="Ingrese un texto aqui">
+        </div>
+      </section>
+       
+       <div class="div-boton" >
+          <p class="adevertencia"> ⚠ Ingrese solo letras minusculas y sin acentos</p>
+          <button type="button" onclick="btnencriptar()" class="boton1" id="encriptar">Encriptar</button>
+          <button type="button" onclick="btndesencriptar()" class="boton2" id= "desencriptar">Desencriptar</button>
+       </div>
+      
+      
+
+          <footer>
+            <ul class="lista-footer">
+              <li class="items"><p class="copyright">&copy SMB - 2022</p></li>
+              <li class="items"><a href="https://www.linkedin.com/in/mayra-barrionuevo-55955a241/" class="icon-linkedin" target="_blank"><img src="linkedin.png" ></a></li>
+              <li class="items"><a href="https://github.com/SolMayB" class="icon-github" target="_blank"><img src="github.png" ></a></li>
+            </ul>
+          </footer>
+
+    </body>
+      <script src="challenge.js"></script>
+    </html> 
+
+
+
+
+

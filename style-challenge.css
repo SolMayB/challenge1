@@ -1,0 +1,255 @@
+body{
+    
+    background: linear-gradient(#f5ecee, #e68197);
+}
+
+.A-alura{
+    position: absolute;
+    height: 48px;
+    width: 31.085588455200195px;
+    margin: 40px 84px;
+    top: 0px;
+    border-radius: 0px;
+
+}
+
+.texto_encriptado{
+    width: 400px;
+    height: 900px;
+    top: 20px;
+    border-radius: 32px;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+    box-shadow: 10px 10px 30px 15px #000000;
+    resize: none;
+    font-size: 32px;
+    font-family: Inter;
+    text-align: center;
+    padding-top: 70px;
+}
+
+.logo-munieco{
+    position: absolute;
+    margin-top: 243px;
+    margin-left: 32px;
+    
+
+}
+
+.texto-entrada{
+    height: 48px;
+    width: 577px;
+    border: none;
+    font-size: 32px;
+    font-family: Inter;
+    margin: 150px 0px 0px 220px;
+    font-weight: 400;
+    line-height: 48px;
+    background-color:#f5ecee1a;
+    display: inline-block;
+}
+
+#encriptar{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+    background: #8a1ab6;
+    border-radius: 24px;
+    width: 328px;
+    height: 67px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    color:white;
+    display: inline-block;
+    margin: 434px 24px 72px 240px;
+}
+
+#desencriptar{
+   
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+    width: 328px;
+    height: 67px;
+    background: #D8DFE8;
+    border: 1px solid #8a1ab6;
+    border-radius: 24px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    display: inline-block;
+    margin: 434px 320px 72px 0px;
+}
+
+.boton_copiar:hover{
+    background: #8a1ab6b0;
+    transform: scale(1.1);
+
+}
+
+
+.boton_copiar{
+    position: absolute;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+    width: 328px;
+    height: 67px;
+    background: #8a1ab663;
+    border: 1px solid #8a1ab6b0;
+    border-radius: 24px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    display: inline-block;
+    margin: 800px 0px 0px 40px;
+    transition: 1s all;
+    cursor: pointer;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    display: none;
+}
+
+
+.boton1:hover{
+    background: #8a1ab6b0;
+    transform: scale(1.1);
+}
+
+.boton1{
+    width: 280px;
+    height: 19px;
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    cursor: pointer;
+    transition: 1s all;
+}
+
+.boton2:hover{
+    background: #8a1ab6b0;
+    transform: scale(1.1);
+}
+
+.boton2{
+    width: 280px;
+    height: 19px;
+    color: #8a1ab6;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    cursor: pointer;
+    transition: 1s all;
+}
+
+.div-boton p{
+    position: absolute;
+    margin: 410px 24px 72px 240px;
+
+}
+
+
+.area-munieco{
+    width: 550px;
+    float: right;
+}
+
+.texto_no_encontrado{
+    position: absolute;
+    width: 336px;
+    height: 58px;
+    font-family: Inter;
+    font-style: normal;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #343A40;
+    margin-top: 579px;
+    margin-left: 32px;
+
+}
+
+.ingrese_texto{
+    position: absolute;
+    width: 336px;
+    height: 48px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #495057;
+    margin-top: 653px;
+    margin-left: 32px;
+}
+.icon-linkedin {
+    background: #0a66c2;
+    width: 30px;
+    height: 20px;
+    
+    border-radius: 1rem 1rem 1rem 1rem;
+    color: white;
+    text-decoration: none;
+    padding: 0.7rem;
+    display: flex;
+    
+}
+
+
+
+.icon-github{
+    width: 30px;
+    height: 20px;
+    border-radius: 1rem 1rem 1rem 1rem;
+    background: #495057;
+    padding: 0.7rem;
+    text-decoration: none;
+    padding: 0.7rem;
+    display: flex;
+}
+
+footer{
+    text-align: center;
+    padding: 40px;
+}
+
+.lista-footer{
+    display: inline-flex;
+    list-style: none;
+    
+}
+
+.items{
+    margin-right: 10px;
+}
+
+
+
