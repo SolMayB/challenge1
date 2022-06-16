@@ -38,6 +38,11 @@ function desencriptar(stringParaDesencriptar){
             stringParaDesencriptar = stringParaDesencriptar.replaceAll(matrizCodigo[i][0],matrizCodigo[i][1])
         }
     }
+    document.getElementById("munieco").style.display = "none";
+    document.getElementById("in_texto1").style.display = "none";
+    document.getElementById("in_texto2").style.display = "none";
+    document.getElementById("copiar").style.display = "show";
+    document.getElementById("copiar").style.display = "inherit";
     return stringParaDesencriptar;
 }
 
